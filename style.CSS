@@ -14,6 +14,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     background-color: hsl(30, 54%, 90%);
 
 }
@@ -26,14 +27,13 @@ body{
     align-items: center;
     justify-content: center;
     background-color: hsl(0, 0%, 100%);
-    padding: 20px;
+    padding: 20px 20px 0;
     margin: 50px 0;
     text-align: left;
 }
 hr{
     width: 580px;
     color: hsl(30, 54%, 90%);
-    
     margin-bottom: 15px;
 }
 img{
@@ -134,4 +134,9 @@ td{
 }
 .Fat{
     border: none;
+}
+.attribution{
+    font-size: 12px;
+    padding-bottom: 20px;
+   \
 }
